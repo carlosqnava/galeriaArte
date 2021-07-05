@@ -1,0 +1,34 @@
+body{
+    background-color: beige;
+    background-size: 100%;
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    background-color: #343a40; 
+}
+
+.navbar-nav > li > .dropdown-menu > a {
+    color: white;
+}
+
+.navbar-nav > li > .dropdown-menu > a:hover {
+    color: black;
+}
+
+.login {
+    margin-top: 35px !important;
+    margin-right: -35px !important;
+    background-color: #343a40;
+}
+
+.login > a{
+    color: white;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+.dropdown-toggle::before {
+    display:none !important;
+}
+
